@@ -1,0 +1,58 @@
+---
+title: "Introduction to Machine Learning"
+author: "Ewerton"
+date: "2023-09-16"
+output: html_document
+---
+
+Data comes in the form of features and outcomes.
+
+We want to build an algorithm that takes features as input and returns a prediction when we don't know the actual outcome. We will train the algorithms using datasets for which we do know the acutal outcome, and then apply these algorithms in the future to make predictions when we don't know the acutal outcome. This is also referred to as supervised learning.
+
+Supervised learning problems can be divided into those with categorical outcomes, which we refer to as classification; and those with continous outcoms, which we refer to as prediction.
+
+$X_{1}, ..., X_{p}$ denote the features/predictors/covariates, $Y$ denotes the outcomes, and $Y^{prediction}$ denotes the predictions.
+
+In machine learning we want to build an algorithm that returns a prediction for any of the possible values of the features.
+
+$Y_{i}$ is an outcome for observation or index $i$.
+
+We use boldface for $X_{i}$ to distinguish the vector for predictors from the individual predictors $X_{i,1}, ..., X_{i,784}$.
+
+When referring to an arbitrary set of features and outcomes, we drop the index $i$ and use $Y$ and bold $X$.
+
+Uppercae is used to refer to variables because we think of predictors as random variables. Lowercase is used to denote observed values.
+
+$X$ is an unoberved random variable and $x$ us an arbitrary value. $X = x$ means a realization of the random variable was observed and it was $x$.
+
+## Section 2
+
+In the machine learning basics section, you will learn the basics of machine learning.
+
+After completing this section, you will be able to:
+
+1. Start to use the caret package
+
+2. Construct and interpret a confusion matrix
+
+3. Use a conditional probabilities in the context of machine learning.
+
+
+This section has two parts: basics of evaluating machine learning algorithms and conditional probalities. There are comprehension checks at the end of each part.
+
+We encourage you to use R interactively test out your answers and further own learning. if you get stuck, we encourage you to search the discussion boards for the answer to your issue or ask us for help.
+
+```{r}
+
+# baxando o pacote caret
+install.packages("caret")
+
+# carregando pacote caret
+library(caret)
+```
+
+
+
+
+
+
